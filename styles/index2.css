@@ -1,0 +1,41 @@
+html {
+  background-image: url("../src/gunter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.angry-grid {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  gap: 0px;
+}
+
+#item-0 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 2;
+  grid-column-end: 4;
+}
+#item-1 {
+  grid-row-start: 1;
+  grid-column-start: 4;
+
+  grid-row-end: 2;
+  grid-column-end: 6;
+}
+.pingeon {
+  height: 700px;
+  float: right;
+  margin-right: 5px;
+}
+.textepingu {
+  font-size: 45px;
+  margin-left: 25px;
+}
+.angry-grid {
+  margin-top: 100px;
+}
